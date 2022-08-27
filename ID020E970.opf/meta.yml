@@ -1,27 +1,52 @@
 id: ID020E970
+legacy_id: P004317
+ocr_import_info:
+  bdrc_scan_id: W1KG13768
+  source: bdrc
+  ocr_info:
+    timestamp: '2020-03-26T06:41:54'
+    imagesfolder: images
+  batch_id: batch001
+  software_id: vision
+  expected_default_language: bo
+  op_import_options: {}
+  op_import_version: 1.0.0
+default_language: bo
 source: https://library.bdrc.io
 source_file: null
 initial_creation_type: ocr
-imported: '2020-03-26T06:45:03+00:00'
-last_modified: '2022-06-07T21:56:36.382700+00:00'
-parser: https://github.com/OpenPecha-dev/openpecha-toolkit/blob/231bba39dd1ba393320de82d4d08a604aabe80fc/openpecha/formatters/google_orc.py
+imported: '2022-08-27T04:51:33.824738+00:00'
+last_modified: 2022-08-27 12:52:41.879289
+parser: https://github.com/OpenPecha/Toolkit/blob/7f57883d84bc10351527a49ee6ce970ace404e50/openpecha/formatters/google_ocr.py
 source_metadata:
-  id: bdr:W1KG13768
-  title: ཟབ་ལམ་ཇོ་ནང་སྔོན་འགྲོའི་ཚིག་འགྲེལ་སྔོན་མེད་རབ་གསལ་སྣང་བ།
-  author: ''
+  id: http://purl.bdrc.io/resource/W1KG13768
+  status: http://purl.bdrc.io/admindata/StatusReleased
   access: http://purl.bdrc.io/admindata/AccessOpen
-  restrictedInChina: true
-  base:
-    '6788':
-      image_group_id: I1KG21311
-      title: ''
+  geo_restriction:
+  - CN
+  reproduction_of: http://purl.bdrc.io/resource/MW1KG13768
+  copyright_status: http://purl.bdrc.io/resource/CopyrightPublicDomain
+  title: ཟབ་ལམ་ཇོ་ནང་སྔོན་འགྲོའི་ཚིག་འགྲེལ་སྔོན་མེད་རབ་གསལ་སྣང་བ།
+  author: ཤར་མཁན་སྤྲུལ་འཇམ་དཔལ་བློ་གྲོས།
+statistics:
+  ocr_word_mean_confidence_index: 0.9573312384601982
+  ocr_word_median_confidence_index: 0.9900000095367432
+quality: null
+bases:
+  I1KG21311:
+    source_metadata:
+      id: http://purl.bdrc.io/resource/I1KG21311
       total_pages: 454
-      order: 1
-      base_file: 6788.txt
-statistics: {}
-quality: {}
+      volume_number: 1
+      volume_pages_bdrc_intro: 2
+    order: 1
+    base_file: I1KG21311.txt
+    statistics:
+      ocr_word_median_confidence_index: 0.9900000095367432
+      ocr_word_mean_confidence_index: 0.9573312384601982
+    legacy_id: v001
 copyright:
-  status: Unknown
-  notice: ''
-  info_url: null
-license: null
+  status: Public domain
+  notice: Public domain
+  info_url: https://creativecommons.org/publicdomain/mark/1.0/
+license: CC0
